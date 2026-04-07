@@ -1,85 +1,53 @@
-## williamangks
+```python
+#!/usr/bin/env python3
 
-```
-principles := [
-  "mauveés ovriers ne trovera ja bon hostill",
-  "suaviter in modo, fortiter in re",
-  "[clarity && brevity] > cleverness",
+# williamangks
+
+principles = [
+    "mauveés ovriers ne trovera ja bon hostill",  # use tools well, regardless of how basic they are
+    "suaviter in modo, fortiter in re",           # gentle in the manner, bold in the matter
+    "clarity and brevity in scripting",
 ]
-```
 
-* Use any available tools — even basic/archaic — with high proficiency.
-* Be gentle in manner, bold in action (especially in system design).
-* Prefer clarity and brevity in code.
+role = "data consultant"
 
----
-
-```
-role := "data consultant"
-```
-
-Build and review data products daily:
-
-* data APIs
-* datasets
-* dashboards
-
----
-
-```
-stack := {
-  languages: [python, bash],
-  databases: [postgresql, mysql],
-  orchestration: [airflow, kafka],
-  cloud: [gcp],
+work = {
+    "daily": [
+        "data APIs",
+        "datasets",
+        "dashboards",
+    ]
 }
-```
 
----
-
-```
-specialization := "data products"
-learning_mode := "autodidact + practice"
-```
-
-Certified in:
-
-* Oracle Autonomous Data Warehouse
-* Oracle Machine Learning
-
----
-
-```
-workview := {
-  fundamentals: true,
-  clear_thinking: true,
-  system_design: important,
-  scripting: "critical path",
+stack = {
+    "languages": ["python", "bash"],
+    "databases": ["postgresql", "mysql"],
+    "orchestration": ["airflow", "kafka"],
+    "cloud": ["gcp"],
 }
-```
 
-Fundamentals and clear thinking matter.
-Efficient platform design matters.
-But in practice, strong Python and Bash scripting matter more.
+specialization = "data products"
+learning_mode = ["practice", "autodidact"]
 
----
+certifications = [
+    "Oracle Autonomous Data Warehouse",
+    "Oracle Machine Learning",
+] # exists, but already expired...
 
-```
-current_focus := ["idiomatic scripting", "reliability"]
-```
+workview = {
+    "fundamentals": True,
+    "clear_thinking": True,
+    "system_design": "important",
+    "scripting": "critical",
+}
 
----
+current_focus = [
+    "idiomatic scripting",
+    "reliability",
+]
 
-```
-collaboration := false
-social := true
-```
+collaboration = False
+social = True  # open to making friends. seriously. can't be more serious
 
-Not looking for collaboration.
-But open to making friends... seriously :)
-
----
-
-```
-contact := "william[dot]kisjanto[at]gmail[dot]com"
+contact = "william[dot]kisjanto[at]gmail[dot]com"
 ```
