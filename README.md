@@ -1,12 +1,22 @@
 ## williamangks
 
-My working principles in data engineering:
+```
+principles := [
+  "mauveés ovriers ne trovera ja bon hostill",
+  "suaviter in modo, fortiter in re",
+  "[clarity && brevity] > cleverness",
+]
+```
 
-* "Mauveés ovriers ne trovera ja bon hostill — Bad workmen will never find a good tool"
-* "Suaviter in modo, fortiter in re" — gentle in manner, bold in the matter
-* Present code with clarity and brevity
+* Use any available tools — even basic/archaic — with high proficiency.
+* Be gentle in manner, bold in action (especially in system design).
+* Prefer clarity and brevity in code.
 
 ---
+
+```
+role := "data consultant"
+```
 
 Build and review data products daily:
 
@@ -16,28 +26,60 @@ Build and review data products daily:
 
 ---
 
-**Stack**
-
-* Python, Bash
-* PostgreSQL, MySQL
-* Airflow
-* GCP (data engineering)
+```
+stack := {
+  languages: [python, bash],
+  databases: [postgresql, mysql],
+  orchestration: [airflow, kafka],
+  cloud: [gcp],
+}
+```
 
 ---
 
+```
+specialization := "data products"
+learning_mode := "autodidact + practice"
+```
+
+Certified in:
+
+* Oracle Autonomous Data Warehouse
+* Oracle Machine Learning
+
+---
+
+```
+workview := {
+  fundamentals: true,
+  clear_thinking: true,
+  system_design: important,
+  scripting: "critical path",
+}
+```
+
 Fundamentals and clear thinking matter.
-Efficient and effective platform design matters.
+Efficient platform design matters.
 But in practice, strong Python and Bash scripting matter more.
 
 ---
 
-Currently improving:
-
-* idiomatic and reliable scripting
+```
+current_focus := ["idiomatic scripting", "reliability"]
+```
 
 ---
 
-Not looking for collaboration.
-But open to making friends... seriously :(
+```
+collaboration := false
+social := true
+```
 
-Contact: william[dot]kisjanto[at]gmail[dot]com
+Not looking for collaboration.
+But open to making friends... seriously :)
+
+---
+
+```
+contact := "william[dot]kisjanto[at]gmail[dot]com"
+```
