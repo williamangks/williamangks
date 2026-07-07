@@ -3,51 +3,110 @@
 
 # williamangks
 
-principles = [
-    "mauveés ovriers ne trovera ja bon hostill",  # use tools well, regardless of how basic they are
-    "suaviter in modo, fortiter in re",           # gentle in the manner, bold in the matter
-    "clarity and brevity in scripting",
-]
+role = "Cloud Data Engineer"
 
-role = "data consultant"
+development_principles = [
+    "use tools well, regardless of how basic they are",
+    "gentle in the design, bold in the implementation",    # suaviter in modo, fortiter in re
+    "clarity and brevity in scripting, so that the future-me not cursing me for what I have done",
+    "minimize WIP before it becomes lore",
+    "as uncultivated ground grows weeds, neglected code grows technical debt."
+]
 
 work = {
     "daily": [
         "data APIs",
-        "datasets",
+        "SQL queries",
+        "data pipelines",
         "dashboards",
-    ]
+        "refactoring"
+    ],
+    "project": {
+        "planning": [
+            "system design",
+            "infrastructure design",
+            "data model design"
+        ],
+        "data": [
+            "OLTP",
+            "OLAP",
+            "ETL",
+            "ELT",
+            "batch pipelines",
+            "streaming pipelines"
+        ],
+        "engineering": [
+            "backend services",
+            "database design",
+            "automation",
+            "data quality checks"
+        ],
+    },
 }
 
 stack = {
-    "languages": ["python", "bash"],
-    "databases": ["postgresql", "mysql"],
-    "orchestration": ["airflow", "kafka"],
-    "cloud": ["gcp"],
+    "languages": [
+        "Bash",
+        "Python",
+        "SQL",
+        "JavaScript"
+    ],
+    "cloud": [
+        "Google Cloud Platform",
+        "Oracle Cloud Infrastructure"
+    ],
+    "data": [
+        "Apache Airflow",
+        "Google Cloud Composer",
+        "Kafka",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle Autonomous Data Warehouse"
+    ],
+    "focus": [
+        "Data Pipelines",
+        "Data Quality",
+        "Automation",
+        "Data Reliability"
+    ],
 }
 
 specialization = "data products"
-learning_mode = ["practice", "autodidact"]
 
-certifications = [
-    "Oracle Autonomous Data Warehouse",
-    "Oracle Machine Learning",
-] # exists, but already expired...
+learning_mode = [
+    "practice",
+    "autodidact"
+]
+
+verified_badges = {
+    "provider": "Credly",
+    "profile": "https://www.credly.com/users/william-ang-kisjanto-surya"
+}
+
+credential_history = [
+    "Oracle Autonomous Data Warehouse Specialist",
+    "Oracle Machine Learning Specialist"
+]
 
 workview = {
     "fundamentals": True,
     "clear_thinking": True,
     "system_design": "important",
-    "scripting": "critical",
+    "scripting": "critical"
 }
 
 current_focus = [
-    "idiomatic scripting",
-    "reliability",
+    "Cloud Data Engineering",
+    "Data Reliability",
+    "Python",
+    "SQL",
+    "Google Cloud Composer",
+    "Apache Airflow"
 ]
 
-collaboration = False
-social = True  # open to making friends. seriously. can't be more serious
+collaboration = "async"
+social = True
 
-contact = "william[dot]kisjanto[at]gmail[dot]com"
+raw = "william[dot]kisjanto[at]gmail[dot]com"
+contact = raw.replace("[dot]", ".").replace("[at]", "@")
 ```
